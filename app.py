@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 import streamlit as st
 from core.extractor import extract_texts
