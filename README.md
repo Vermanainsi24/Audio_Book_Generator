@@ -44,3 +44,59 @@ Using **Edge-TTS (Microsoft Neural Voices)**:
 ### 💾 Audio History Storage
 All audio files are saved inside:
 
+History table includes:
+- File name  
+- Duration  
+- Created date  
+- Playback button  
+- Download button  
+
+### 🎨 Modern UI
+- Clean Streamlit design  
+- Sidebar with About section  
+- Two-column layout  
+- Expandable sections  
+- Paginated history table  
+
+---
+
+## 🧩 Folder Structure
+```
+AudioBook-Generator/
+│
+├── app.py # Main Streamlit application
+├── requirements.txt # Dependencies
+├── README.md # Documentation
+│
+├── generated_audio/ # Generated MP3 files
+│ └── (audio files)
+│
+├── modules/
+│ ├── tts_engine.py # Text-to-speech engine
+│ ├── translator.py # Language translation
+│ └── llm_enrichment.py # Gemini + local rewriting
+│
+└── .env # Environment variables (ignore in Git)
+```
+
+---
+## 🔑 Environment Variables
+
+Create a .env file:
+```
+GEMINI_API_KEY=YOUR_API_KEY_HERE
+FFMPEG_PATH=C:\ffmpeg\bin\ffmpeg.exe
+```
+## ▶️ Run the Application
+```
+streamlit run app.py
+```
+
+
+Open the URL displayed in the terminal (usually http://localhost:8501).
+
+## 👩‍💻 Author
+
+Nainsi Verma
+- AI & Full-Stack Developer
+- Building intelligent tools for accessibility and productivity.
