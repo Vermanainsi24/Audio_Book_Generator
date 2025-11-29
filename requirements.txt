@@ -1,19 +1,17 @@
-<<<<<<< HEAD
-
 streamlit
 pdfplumber
 python-docx
-=======
-streamlit
-PyPDF2
-pdfplumber
-python-docx
+gTTS                  
 pyttsx3
-gTTS
-openai
-google-generativeai
 pydub
+openai
 python-dotenv
-torch
-transformers
->>>>>>> acbe120 (Added text extraction function file)
+google-generativeai
+pymupdf
+edge-tts
+googletrans==4.0.0-rc1
+mutagen
+
+
+# Converts text to MP3 audio using Google Text-to-Speech (online).
+
