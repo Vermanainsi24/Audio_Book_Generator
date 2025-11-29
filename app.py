@@ -21,7 +21,7 @@ if uploaded_files:
         st.code(preview or "[No text extracted]")
 else:
     st.info("Upload a file to begin.")
-=======
+
 import streamlit as st
 from gtts import gTTS
 import pyttsx3
@@ -154,4 +154,4 @@ if uploaded_file:
                     pass
             else:
                 st.error("Audio generation failed. Check the logs above.")
->>>>>>> acbe120 (Added text extraction function file)
+
