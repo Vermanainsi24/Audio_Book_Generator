@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+
+streamlit
+pdfplumber
+python-docx
+=======
+streamlit
+PyPDF2
+pdfplumber
+python-docx
+pyttsx3
+gTTS
+openai
+google-generativeai
+pydub
+python-dotenv
+torch
+transformers
+>>>>>>> acbe120 (Added text extraction function file)

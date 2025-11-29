@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+
+.venv/
+__pycache__/
+outputs/
+.env
+=======
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Streamlit & system files
+.streamlit/
+.DS_Store
+>>>>>>> acbe120 (Added text extraction function file)
